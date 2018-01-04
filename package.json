@@ -1,0 +1,21 @@
+{
+  "author": "EveTeam",
+  "bin": {
+    "rhoda-cli": "cli.js"
+  },
+  "description": "Eve CLI",
+  "license": "GPL-2.0",
+  "main": "index.js",
+  "name": "@rhoda/cli",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "git@github.com:gcca/-eve-cli.git",
+  "version": "1.0.0",
+  "dependencies": {
+    "canonical-path": "^0.0.2",
+    "commander": "^2.12.2",
+    "shelljs": "^0.7.8"
+  }
+}
