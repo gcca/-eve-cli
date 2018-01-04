@@ -16,7 +16,7 @@ switch (program.start) {
     console.warn('Not implemented');
     break;
   case 'project':
-    shell.cp('-R', path.join(__dirname, 'eve-start'), '.');
+    shell.cp('-R', path.join(__dirname, 'start'), '.');
     break;
   default:
     console.error('Bad option');
